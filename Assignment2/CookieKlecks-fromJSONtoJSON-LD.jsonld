@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "ex": "https://example.com/#"
+  },
+  "@type": "schema:Person",
+  "@id": "ex:CedricoKnoesel",
+  "schema:familyName": "Knoesel",
+  "schema:givenName": "Cedrico",
+  "schema:birthPlace": {
+    "@type": "schema:Place",
+    "@id": "https://www.openstreetmap.org/api/0.6/relation/62464",
+    "schema:address": "Würzburg"
+  },
+  "ex:age": 25,
+  "schema:alumniOf": "Karlsruher Institut für Technologie",
+  "schema:parents": [
+    {
+      "@type": "schema:Person",
+      "@id": "ex:NicoletteBrause",
+      "schema:givenName": "Nicolette",
+      "schema:familyName": "Brause"
+    },
+    {
+      "@type": "schema:Person",
+      "@id": "ex:JochenKnoesel",
+      "schema:givenName": "Jochen",
+      "schema:familyName": "Knoesel"
+    }
+  ],
+  "ex:subjects": [
+    {
+      "@id": "ex:ODKG",
+      "ex:name": "Open Data and Knowledge Graphs",
+      "ex:professors": [
+        "Oscar Corcho Garcia",
+        "Raul Garcia Castro"
+      ],
+      "ex:description": "During this course you will learn about the main foundations for Knowledge Graphs, including the W3C\nrecommendations that are applicable in this area (RDF, RDF Schema, SPARQL, OWL, CSV on the Web) and\nmethodologies for the generation and publication of Knowledge Graphs from multiple heterogeneous data sources\nand formats, using Linked Data technologies. You will also learn about how to create shared agreed vocabularies\nand ontologies that can give support to Knowledge Graph generation and publication, and will understand how\nthese principles and approaches have been applied to several domains. You will work on a practical hands-on\nexercise that will be the basis for your participation in hackatons and other similar events."
+    },
+    {
+      "@id": "ex:SPM",
+      "ex:name": "Software Project Management",
+      "ex:professors": [
+        "Ana Maria Moreno Sanchez-Capuchino"
+      ],
+      "ex:description": "This subject covers the different activities to be performed by a software project manager to successfully drive a\nsoftware project. For that aim, both workshops and theoretical lecturers will be provided."
+    },
+    {
+      "@id": "ex:PUI",
+      "ex:name": "Programming Of User Interfaces",
+      "ex:professors": [
+        "Angel Lucas Gonzalez Martinez"
+      ],
+      "ex:description": "This course introduces the fundamentals of programming techniques for interactive systems. Students will learn\nhow to design and implement good user interfaces, how user interface systems work and integrate with operating systems."
+    },
+    {
+      "@id": "ex:IIEM",
+      "ex:name": "Introduction To Innovation And Entrepreneurship Management",
+      "ex:professors": [
+        "Roberto Martinez Gamero",
+        "Alberto Tejero Lopez"
+      ],
+      "ex:description": "Introduction to innovation and entrepreneurship management: Introductory course to offer all EIT Digital Master\nstudents a general understanding on concepts and types of innovation, innovation processes, models and tools\napplied in the ICT sector."
+    },
+    {
+      "@id": "ex:ASD",
+      "ex:name": "Agile Software Development: Agile Practices And Agile Usability",
+      "ex:professors": [
+        "Ana Maria Moreno Sanchez-Capuchino"
+      ],
+      "ex:description": "This subjects provides an overview of the agile development process. We will review the main differences with\ntraditional development and how agile practices can be used to solve some importan lacks in classical methods."
+    }
+  ]
+}
